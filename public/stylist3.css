@@ -1,0 +1,104 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-image: url("/public/images/covermainsite.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+hr{
+    background-color: black;
+    height: 3px;
+    width: 100%;
+}
+img{
+    height: 90px;
+    width: 90px;
+}
+.heading{
+    display: flex;
+       
+}
+
+
+caption{
+    font-size: 1.3rem;
+    font-weight: 570;
+}
+.table1{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.index-table{
+    border-collapse: collapse;
+    margin-top: 10px;
+    font-size: 1em;
+    min-width: 400px;
+    
+    
+    
+    
+}
+.headtable {
+    background-color: rgb(133, 37, 156);
+    color: white;
+    text-align: left;
+    font-weight: bold;
+    
+}
+
+
+.index-table th,
+.index-table td{
+    padding: 12px 15px;
+}
+
+.index-table tbody tr{
+    border-bottom: 1px solid #b775c6;
+}
+.index-table tbody tr:nth-of-type(even){
+background-color: #b775c6;
+}
+.index-table tbody tr:last-of-type{
+    border-bottom:3px solid rgb(133, 37, 156);
+}
+.basevideos{
+    height: 700px;
+    display: flex;
+    
+
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+   
+}
+iframe{
+    margin-right: 50px;
+}
+.sitelist{
+    display: flex;
+    font-size: 1rem;
+    justify-content: space-evenly;
+    font-weight: 600;
+}
+.sitelist a{
+    text-decoration: none;
+    color: rgb(133, 37, 156);
+    
+}
+footer{
+    
+    text-align: center;
+    font-weight: 300;
+    height: 100%;
+    font-size: 0.8rem;
+   
+}
+.copyright{
+display: flex;
+align-items: center;
+justify-content: center;
+height: 14.4px;
+}
