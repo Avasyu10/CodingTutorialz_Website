@@ -3,6 +3,9 @@ body {
     background-color: #f4f4f4;
     margin: 0;
     padding: 0;
+    background-image: url("/public/images/covermainsite.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .container {
@@ -13,6 +16,7 @@ body {
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 4px solid yellow;
 }
 
 .container h2 {
@@ -32,8 +36,15 @@ body {
     padding: 10px;
     margin-bottom: 15px;
     border: 1px solid #ccc;
-    border-radius: 5px;
+    border-radius: 8px;
     font-size: 16px;
+    transition: border-color 0.3s ease;
+}
+.container form input[type="text"]:focus,
+.container form input[type="email"]:focus,
+.container form input[type="password"]:focus,
+.container form input[type="date"]:focus {
+    border-color: #007bff;
 }
 
 .container form input[type="submit"],
@@ -61,4 +72,5 @@ body {
 .container form a:hover {
     text-decoration: underline;
 }
+
 
