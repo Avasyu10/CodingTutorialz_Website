@@ -1,11 +1,16 @@
 const mongoose=require("mongoose");
-mongoose.connect("mongodb://localhost:27017/Login_page")
+const mongoURI = process.env.MONGO_URI || "mongodb://avasyu:avasyu10@0.0.0.0:27017/Login_page";
 
-.then(()=>{
+mongoose.connect(mongoURI, {
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+})
+.then(() => {
     console.log("Database connected successfully");
 })
-.catch((err)=>
-    console.log(err));
+.catch((err) => {
+    console.error("Database connection error:", err);
+});
 
 
 
