@@ -1,22 +1,20 @@
+/* Existing Styles */
 *{
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
     border: border-box;
     overflow-x: hidden;
-    
-
-
-
 }
+
 .sel:hover{
     cursor: pointer;
 }
+
 .sign:hover{
     cursor: pointer;
 }   
 
 .navbar{
-
     height: 70px;
     background-color: #e2e7e6;
     color: #797979;
@@ -24,41 +22,31 @@
     align-items: center;
     justify-content: space-evenly;
     overflow: hidden;
-   
-
-    
-
 }
 
 .border{
     border: 2px solid transparent;
 }
+
 .border:hover{
     border: 2px solid black;
 }
+
 .nav-logo{
     height: 70px;
     width: 100px;
 }
 
 .logo{
-    
-        background-image: url("/public/images/the-closing-tag-1024x1024.jpeg");
-        background-size: cover;
-       
-       
-        
-        height: 60px;
-        width: 86px;
-        
-        
-       
-        
+    background-image: url("/public/images/the-closing-tag-1024x1024.jpeg");
+    background-size: cover;
+    height: 60px;
+    width: 86px;
 }
+
 .nav-select{
     width: 60%;
 }
-
 
 .sel {
     color: #797979;
@@ -66,7 +54,7 @@
     border: none;
     font-weight: 600;
     font-size: 0.8rem;
-    padding: 8px 20px 8px 8px; /* Adjust padding as needed */
+    padding: 8px 20px 8px 8px;
     appearance: none;
     -webkit-appearance: none;
     -moz-appearance: none;
@@ -76,73 +64,72 @@
     background-size: 12px;
 }
 
-/* Hide default arrow in Firefox */
 .sel::-ms-expand {
     display: none;
 }
 
-/* Adjust margin-right to create space between dropdowns */
 .sel {
-    margin-right: 15px; /* Keep this value to maintain spacing */
+    margin-right: 15px;
 }
 
-/* Make options compact */
 .sel option {
     font-size: 0.8rem;
 }
-
-
-
 
 .sign{
      background-color: orange;
      border-radius: 10px;
      height: 40px;
-     width: 130;
+     width: 130px;
      border: none;
      color: white;
-     
      font-weight: 600;
      padding: 4px 10px 5px;
 }
-.title{
-    margin-left: 6px;
+
+/* Hover effect for buttons */
+.sel:hover {
+    background-color: #f2f2f2; /* Light gray background on hover */
 }
 
+.sign:hover {
+    background-color: #e68a00; /* Darker shade of orange on hover */
+    transform: scale(1.05); /* Slightly enlarge button on hover */
+}
+
+.lang-button:hover {
+    background-color: #ffcc80; /* Lighter shade of orange on hover */
+    transform: scale(1.05); /* Slightly enlarge button on hover */
+}
+
+/* Remaining Styles */
 .hero-sec{
     background-image: url("/public/images/3.avif");
     height: 800px;
     background-size: cover;
     display: flex;
     width: 100%;
-   
-    
-   
 }
+
 .hero-mssg{
     background-color: white;
     color: black;
     height: 190px;
-    
     font-size: 1.25rem;
     font-weight: 520;
     width: 24%;
-    
     justify-content: center;
     margin-top: 25px;
-    
     margin-left: 15px;
     padding-left: 3px;
     align-items: center;
     border: 2px solid black;
-    
-    
 }
-
 
 .hero-mssg a{
     color: #007185;
 }
+
 .nxt-icon{
     width: 90px;
     display: flex;
@@ -153,24 +140,21 @@
     margin-left: 980px;
     margin-top: 220px;
     color: white;
-   
-
 }
+
 .topics{
     height: 150px;
-    
 }
+
 #para3{
     font-weight: 700;
     font-size: 1.85rem;
     margin-left: 6px;
-
-
-
 }
+
 .langs{
     display: inline-block;
-       width: 100%;
+    width: 100%;
 }
 
 .lang-button{
@@ -183,13 +167,9 @@
     margin-left: 12px;
     font-size: 1rem;
     font-weight: 600;
-    
     margin-right: 60px;
-
     font-weight: 600;
     text-align: center;
-    
-    
 }
 
 .sale{
@@ -201,18 +181,21 @@
 .placement{
     height: 300px;
 }
+
 .companies-1{
     height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .companies-2{
     height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 img{
     height: 60px;
     width: 120px;
@@ -220,23 +203,22 @@ img{
 }
 
 .para4{
-text-align: center;
-font-size: 1.85rem;
-font-weight: 700;
-
+    text-align: center;
+    font-size: 1.85rem;
+    font-weight: 700;
 }
+
 .para5{
     font-size: 1.1rem;
-
-
-
 }
+
 article{
     margin-left: 6px;
 }
+
 footer{
     font-size: 0.8rem;
     text-align: center;
     font-weight: 300;
-   
 }
+
