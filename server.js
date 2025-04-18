@@ -11,6 +11,8 @@ app.get('/', (req, res) => {
 
 
 require('./config/config');
+require('dotenv').config();
+
 const UserRouter = require('./api/User');
 
 // Serve static files from the 'views' directory
