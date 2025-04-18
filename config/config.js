@@ -1,3 +1,4 @@
+require('dotenv').config();
 const mongoose=require("mongoose");
 const mongoURI = process.env.MONGO_URI || "mongodb://avasyu:avasyu10@0.0.0.0:27017/Login_page";
 
