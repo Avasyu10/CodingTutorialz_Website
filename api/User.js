@@ -138,7 +138,7 @@ router.post("/signup", (req, res) => {
 
 const sendVerificationEmail = ({ _id, email }, res) => {
     //url to be used in the email
-    const currentURL = "http://localhost:3000/";
+    const currentURL = "https://codingtutorialz-website-1.onrender.com";
     const uniqueString = uuidv4() + _id;
 
     const mailOptions = {
