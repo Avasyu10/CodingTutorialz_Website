@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", function() {
             loginMessage.textContent = data.message;
             if (data.status === 'SUCCESS') {
                 // Redirect after successful login
-                window.location.href = '/user/dashboard';
+                window.location.href = '/Coding_tutorials.html';
             }
         })
         .catch(error => console.error('Error:', error));
