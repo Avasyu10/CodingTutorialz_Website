@@ -73,4 +73,32 @@ body {
     text-decoration: underline;
 }
 
+/* Mobile responsiveness */
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    .container {
+        width: 100% !important;
+        padding: 1.2rem !important;
+        box-shadow: none;
+        border-radius: 0;
+    }
+
+    input, button, select, textarea {
+        width: 100% !important;
+        font-size: 16px;
+    }
+
+    h1, h2, h3 {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    p, label, a {
+        font-size: 1rem;
+        text-align: center;
+    }
+}
 
